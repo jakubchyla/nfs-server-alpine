@@ -1,10 +1,8 @@
-name: Calendar Bot image build and upload
+name: NFS server image build and upload
 
 on:
     push:
         branches: ["master"]
-        paths:
-            - '**'
         paths-ignore:
             - '.github/**'
             - 'README.md'
